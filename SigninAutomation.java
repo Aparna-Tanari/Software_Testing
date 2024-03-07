@@ -12,7 +12,7 @@ public class SigninAutomation {
         //Mazimize current window
         driver.manage().window().maximize();
         driver.findElement(By.id("user_email_login")).sendKeys("2100030031@kluniversity.in"); //CREDENTIALS
-        driver.findElement(By.id("user_password")).sendKeys("Raju@1974");
+        driver.findElement(By.id("user_password")).sendKeys("Aparna#1008");
         driver.findElement(By.name("commit")).click();//SIGNIN
         Thread.sleep(11000);
         driver.get("https://www.browserstack.com/users/sign_out");//SIGNOUT
